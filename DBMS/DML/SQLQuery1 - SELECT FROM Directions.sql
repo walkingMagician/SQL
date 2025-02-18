@@ -1,0 +1,4 @@
+USE VPD_311_SQL;
+GO
+
+SELECT * FROM Directions;
