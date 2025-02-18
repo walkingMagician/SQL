@@ -22,6 +22,12 @@
     </LogicalFolder>
     <LogicalFolder Name="Запросы" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="SQLQuery - HOMEWORK.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1QH3LV4\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1QH3LV4\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery - HOMEWORK.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery1 - CREATE DATABASE.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1QH3LV4\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-1QH3LV4\SQLEXPRESS</AssociatedConnSrvName>
