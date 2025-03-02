@@ -21,10 +21,11 @@ GROUP BY	direction_name
 
 SELECT	DISTINCT
 			[Направление обучения]	=	direction_name,
-			[Количество групп]		=	COUNT(group_id),
+			[Количество групп]		=	COUNT(DISTINCT group_id),
 			[Количество студентов]	=	COUNT(stud_id)
 FROM		Students, Groups, Directions
 WHERE		[group]		=	group_id
 AND			direction	=	direction_id
 GROUP BY	direction_name--, group_id
 ;
+
