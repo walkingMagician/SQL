@@ -14,11 +14,11 @@ GROUP BY discipline_name
 --Для каждого преподавателя вывести количество дисциплин, которые он может читать;
 SELECT DISTINCT
 	[Учетеля]		=	last_name + ' ' + first_name,
-	[Дисциплина]	=	discipline_name
+	[Дисциплина]	=	COUNT (DISTINCT discipline_id)
 FROM	Teachers , Disciplines , TeachersDisciplinesRelation 
 WHERE	teacher		=	teacher_id	
 AND		discipline		=	discipline_id
-GROUP BY last_name, first_name, discipline_name
+GROUP BY last_name, first_name
 ;
 
 --Подсчитать количество преподавателей по каждому направлению обучения;
