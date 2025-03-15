@@ -1,80 +1,62 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Transact-SQL">
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HolidayFunctions">
   <Items>
     <LogicalFolder Name="Соединения" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="DESKTOP-1QH3LV4\SQLEXPRESS:DESKTOP-1QH3LV4\Егорка">
-          <Created>2025-02-16T15:22:53.0627071+03:00</Created>
+          <Created>2025-03-15T14:17:25.7627844+03:00</Created>
           <Type>SQL</Type>
           <Server>DESKTOP-1QH3LV4\SQLEXPRESS</Server>
           <UserName />
           <Authentication>Проверка подлинности Windows</Authentication>
-          <InitialDB>VPD_311_Import</InitialDB>
+          <InitialDB />
           <LoginTimeout>30</LoginTimeout>
           <TrustServerCertificate>True</TrustServerCertificate>
           <HostNameInServerCertificate />
           <EncryptionOption>True</EncryptionOption>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
-          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+          <ApplicationName />
         </ConnectionNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Запросы" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="SQLQuery0  - Check.sql">
+        <FileNode Name="SQLQuery0 - CHECK.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1QH3LV4\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-1QH3LV4\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery0  - Check.sql</FullPath>
+          <FullPath>SQLQuery0 - CHECK.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1 - SELECT DisciplinesForGroup.sql">
+        <FileNode Name="SQLQuery1 - CREATE TABLE Holidays.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1QH3LV4\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-1QH3LV4\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1 - SELECT DisciplinesForGroup.sql</FullPath>
+          <FullPath>SQLQuery1 - CREATE TABLE Holidays.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1 - SELECT FROM Schedule.sql">
+        <FileNode Name="SQLQuery2 - Function.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1QH3LV4\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-1QH3LV4\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1 - SELECT FROM Schedule.sql</FullPath>
+          <FullPath>SQLQuery2 - Function.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1 - SELECT ScheduleForGroup.sql">
+        <FileNode Name="SQLQuery2 - PROCEDURE.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1QH3LV4\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-1QH3LV4\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1 - SELECT ScheduleForGroup.sql</FullPath>
+          <FullPath>SQLQuery2 - PROCEDURE.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery2 -  CREATE SetScheduleForSemistacionar.sql">
+        <FileNode Name="SQLQuery3 - TRIGER.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1QH3LV4\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-1QH3LV4\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery2 -  CREATE SetScheduleForSemistacionar.sql</FullPath>
+          <FullPath>SQLQuery3 - TRIGER.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery2 - CREATE SELECT FROM Schedule.sql">
+        <FileNode Name="SQLQuery5 - TRUNCATE Holiday.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1QH3LV4\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-1QH3LV4\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery2 - CREATE SELECT FROM Schedule.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery3 - INSERT LessonToSchedule.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1QH3LV4\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1QH3LV4\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery3 - INSERT LessonToSchedule.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery3 - INSERT to Schedule.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1QH3LV4\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1QH3LV4\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery3 - INSERT to Schedule.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery4 - DELETE Schedule.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1QH3LV4\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1QH3LV4\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery4 - DELETE Schedule.sql</FullPath>
+          <FullPath>SQLQuery5 - TRUNCATE Holiday.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

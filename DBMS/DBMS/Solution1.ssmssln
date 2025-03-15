@@ -11,6 +11,8 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Transact-SQL", "Transact-SQ
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SceduleFunctions", "..\SceduleFunctions\SceduleFunctions.ssmssqlproj", "{07BA7681-647C-493C-9135-04B159A1AB8B}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "HolidayFunctions", "..\HolidayFunctions\HolidayFunctions.ssmssqlproj", "{A58638FD-74A6-4CAD-880A-CC096F12C9D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -19,8 +21,9 @@ Global
 		{0357ED3A-83D8-4AA9-80D8-2BA74C3D17BE}.Default|Default.ActiveCfg = Default
 		{2C3D6582-9BCA-41C6-88A4-949D544A250C}.Default|Default.ActiveCfg = Default
 		{4EBC6793-7F82-4DC2-BC6F-071E13CCD8DC}.Default|Default.ActiveCfg = Default
-		{94D29261-1A1A-47C9-9234-13DC776633FE}.Default|Default.ActiveCfg = Default
 		{07BA7681-647C-493C-9135-04B159A1AB8B}.Default|Default.ActiveCfg = Default
+		{FB4B83EB-258F-44EC-B0D3-E99A3DBBD667}.Default|Default.ActiveCfg = Default
+		{A58638FD-74A6-4CAD-880A-CC096F12C9D5}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
